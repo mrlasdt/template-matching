@@ -1,0 +1,17 @@
+
+sift: 
+  {    
+      "min_match_count": 4,
+      "flann_based_matcher_config": {"algorithm": 0, "trees": 5},
+      "matching_topk": 2,
+      "distance_threshold": 0.6,
+      "ransac_threshold": 5.0,
+      "valid_size_ratio_margin": 0.15,
+      "valid_area_threshold": 0.75,
+      "image_max_size": 1024,
+      "similar_triangle_threshold": 4,
+      "roi_to_template_box_ratio": 3.0, #TODO: check this
+      "default_image_size": [1654, 2368],
+  }
+
+overlap_threshold: 0.6
